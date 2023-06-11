@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PinVerification"
-    android:orientation="vertical">
+    android:background="#faf4f2"
+    android:orientation="vertical"
+    tools:context=".PinVerification">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,8 +30,9 @@
             android:fontFamily="@font/bungee"
             android:gravity="center"
             android:text="@string/code"
+            android:textColor="@color/TextColor"
             android:textSize="24sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView5"
@@ -39,28 +41,30 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:text="@string/enter_the_otp_received"
+            android:textColor="@color/TextColor"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <com.chaos.view.PinView
             android:id="@+id/PinView"
+            style="@style/PinWidget.PinView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
+            android:autofillHints="password"
             android:cursorVisible="true"
             android:gravity="center"
+            android:hint="@string/_91"
             android:inputType="number"
+            android:textColor="@color/TextColor"
             app:cursorColor="#A7A704"
             app:hideLineWhenFilled="false"
             app:itemCount="6"
             app:itemHeight="50dp"
             app:itemRadius="10dp"
             app:itemWidth="40dp"
-            app:lineColor="@color/purple_200"
-            android:autofillHints="password"
-            android:hint="@string/_91"
-            style="@style/PinWidget.PinView"/>
+            app:lineColor="@color/purple_200" />
 
         <Button
             android:id="@+id/pinVerify"

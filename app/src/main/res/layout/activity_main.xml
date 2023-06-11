@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#faf4f2"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -25,6 +26,7 @@
             android:layout_marginBottom="50dp"
             android:gravity="center"
             android:text="@string/login_method"
+            android:textColor="@color/TextColor"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -36,6 +38,7 @@
             android:drawablePadding="20dp"
             android:gravity="center_vertical"
             android:text="@string/phone_number"
+            android:textColor="@color/TextColor"
             android:textSize="20sp"
             app:drawableStartCompat="@drawable/smartphone" />
 
@@ -47,8 +50,15 @@
             android:drawablePadding="20dp"
             android:gravity="center_vertical"
             android:text="@string/email"
+            android:textColor="@color/TextColor"
             android:textSize="20sp"
             app:drawableStartCompat="@drawable/gmail" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/TextMsgPNG" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

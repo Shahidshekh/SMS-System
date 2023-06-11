@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#faf4f2"
     android:orientation="vertical"
     tools:context=".PhoneAuth">
 
@@ -14,6 +15,7 @@
         android:layout_marginTop="50dp"
         android:gravity="center"
         android:text="@string/enter_mobile_number"
+        android:textColor="@color/TextColor"
         android:textSize="34sp" />
 
     <LinearLayout
@@ -33,6 +35,8 @@
             android:hint="@string/_91"
             android:inputType="phone"
             android:text="@string/_91"
+            android:textColor="@color/TextColor"
+            android:textColorHint="@color/HintColor"
             android:textSize="20sp" />
 
         <EditText
@@ -46,6 +50,8 @@
             android:ems="10"
             android:hint="@string/_987654321"
             android:inputType="phone"
+            android:textColor="@color/TextColor"
+            android:textColorHint="@color/HintColor"
             android:textSize="20sp" />
 
     </LinearLayout>

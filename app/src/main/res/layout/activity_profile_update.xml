@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#faf4f2"
     android:orientation="vertical"
     tools:context=".ProfileUpdate">
 
@@ -13,17 +14,18 @@
         android:layout_height="130dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:src="@drawable/ic_user"/>
+        android:src="@drawable/ic_user" />
 
     <TextView
         android:id="@+id/PicUpdateText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/update_profile_picture"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
+        android:text="@string/update_profile_picture"
+        android:textColor="@color/TextColor"
         android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/name"
@@ -35,7 +37,9 @@
         android:autofillHints="Name"
         android:hint="@string/name"
         android:inputType="text"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:textColor="@color/TextColor"
+        android:textColorHint="@color/HintColor" />
 
     <EditText
         android:id="@+id/abt"
@@ -47,15 +51,17 @@
         android:autofillHints="Name"
         android:hint="@string/about_optional"
         android:inputType="text"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:textColor="@color/TextColor"
+        android:textColorHint="@color/HintColor" />
 
     <Button
         android:id="@+id/submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/submit"
-        android:layout_marginTop="200dp"/>
+        android:layout_marginTop="200dp"
+        android:text="@string/submit" />
 
 
 </LinearLayout>

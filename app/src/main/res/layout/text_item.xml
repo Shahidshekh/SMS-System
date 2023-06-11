@@ -7,23 +7,25 @@
     android:padding="3dp">
 
     <TextView
+        android:id="@+id/msg_received"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/message"
         android:background="@drawable/receive_text_bg"
         android:padding="10dp"
-        android:textSize="15sp"
-        android:id="@+id/msg_received"/>
+        android:text="@string/message"
+        android:textColor="@color/TextColor"
+        android:textSize="15sp" />
 
     <TextView
+        android:id="@+id/message_sent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:gravity="right"
-        android:text="@string/message"
         android:background="@drawable/send_text_bg"
+        android:gravity="right"
         android:padding="10dp"
-        android:textSize="15sp"
-        android:id="@+id/message_sent"/>
+        android:text="@string/message"
+        android:textColor="@color/TextColor"
+        android:textSize="15sp" />
 
 </RelativeLayout>

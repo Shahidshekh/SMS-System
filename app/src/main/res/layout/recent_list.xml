@@ -41,35 +41,39 @@
             android:layout_weight="1">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/user_nameR"
-                android:text="@string/todo"
-                android:textSize="20sp"/>
-
-            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/todo"
+                android:textColor="@color/TextColor"
+                android:textSize="20sp" />
+
+            <TextView
                 android:id="@+id/lastMsg"
-                android:text="@string/todo"
-                android:textSize="15sp"/>
-
-            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/msg_timing"
                 android:text="@string/todo"
+                android:textColor="@color/HintColor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/msg_timing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:gravity="end"
-                android:layout_margin="5dp"/>
+                android:text="@string/todo"
+                android:textColor="@color/HintColor" />
 
         </LinearLayout>
 
         <TextView
+            android:id="@+id/seenTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Seen"
             android:layout_margin="5dp"
-            android:id="@+id/seenTV"/>
+            android:text="Seen"
+            android:textColor="@color/HintColor" />
 
     </LinearLayout>
 

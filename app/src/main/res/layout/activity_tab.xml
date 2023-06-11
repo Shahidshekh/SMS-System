@@ -23,11 +23,13 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="#d1edbf"
                 android:gravity="center"
                 android:minHeight="?actionBarSize"
                 android:padding="@dimen/appbar_padding"
                 android:text="@string/app_name"
                 android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+                android:textColor="@color/TextColor"
                 android:textSize="20sp" />
 
             <ImageView
@@ -35,6 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
+                android:background="#d1edbf"
                 android:contentDescription="@string/options"
                 android:padding="16dp"
                 android:src="@drawable/baseline_more_vert_24" />
@@ -45,7 +48,7 @@
             android:id="@+id/tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#605CC8"
+            android:background="#d1edbf"
             android:contentDescription="@string/todo" />
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -53,6 +56,7 @@
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#faf4f2"
         android:contentDescription="@string/todo"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
