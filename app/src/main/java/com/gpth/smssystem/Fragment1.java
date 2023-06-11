@@ -23,6 +23,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.FirebaseFirestoreSettings;
 
 public class Fragment1 extends Fragment {
     RecyclerView recyclerView;
@@ -50,11 +51,13 @@ public class Fragment1 extends Fragment {
 
         db = FirebaseFirestore.getInstance();
 
+
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         assert user != null;
         currentUid = user.getUid();
 
         chatList = database.getReference("chat list").child(currentUid);
+        chatList.keepSynced(true);
 
 
     }
