@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">SMS System</string>
+    <string name="login_method">Choose A Login Method</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="email_login">Email Login</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login">Login</string>
+    <string name="new_to_sms_click_here_to_sign_up">New to SMS Click here to Sign Up!</string>
+    <string name="sign_out">sign out</string>
+    <string name="email_sign_up">Email Sign Up</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">sign up</string>
+    <string name="acc_login">Already have an Account? Login Here!</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="_91">+91</string>
+    <string name="_987654321">9876543210</string>
+    <string name="verify">Verify</string>
+    <string name="todo">TODO</string>
+    <string name="otp_pin">OTP-Pin</string>
+    <string name="code">CODE</string>
+    <string name="enter_the_otp_received">Enter The OTP Received...</string>
+    <string name="update_profile_picture">Update Profile Picture</string>
+    <string name="name">Name</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_tab">TabAct</string>
+    <string name="tab_text_1">Chats</string>
+    <string name="tab_text_2">Groups</string>
+    <string name="options">Options</string>
+    <string name="action_bar">Action Bar</string>
+    <string name="about_optional">About (Optional)</string>
+    <string name="end_to_end_encrypted_messages">End-to-End Encrypted Messages 🔒</string>
+    <string name="message">Message</string>
+</resources>
